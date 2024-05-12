@@ -1,0 +1,12 @@
+h1{color: red;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h3{color: red;}
+img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: solid green 10px;
+}
+div{background-color: lightgray;}
+.aa{background-color: green;
+height: auto;}

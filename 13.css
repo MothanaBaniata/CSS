@@ -1,0 +1,21 @@
+
+table,td.c{
+    border-style: groove;
+    width: 400px;
+    background-color: lightblue;
+}
+td.c{
+    padding-left: 10px;
+}
+h1{
+    color: rgb(207, 0, 0);
+    text-align: center;
+}
+.row1{
+    background-color: rgb(233, 183, 90);
+
+}
+select{width: 115px;}
+.aa{
+    padding: 5px 30px 5px 30px;
+}
