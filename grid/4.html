@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .aa {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(8,50px);
+            width: 1000px;
+            height: 1000px;
+            background-color: red;
+            padding: 20px;
+            gap: 10px;
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+        
+        }
+        #a{
+
+        }
+        #b{
+            grid-area: 1/2/6/3;
+        }
+        #c{ grid-row-start: 6;
+            
+        }
+        #d{
+            grid-row-start: 6;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="aa">
+
+        <img id="a" src="1.jpeg">
+        <img id="b" src="2.jpg">
+        <img id="c" src="3.jpg">
+        <img id="d" src="4.jpg">
+
+    </div>
+</body>
+
+</html>

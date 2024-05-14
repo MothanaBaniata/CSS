@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .aa{
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
+                grid-template-rows: repeat(9,50px);
+            gap: 10px;
+            width: 600px;
+            border-radius: 20px;
+            }
+            .aa div{border-radius: 20px;
+                text-align: center;
+                padding-top: 10px;
+                color: white;
+                font-size: 15px;
+}
+            .ab{background-color: yellow;
+            grid-column: 1/5;
+
+            }
+            .ac{background-color: rgb(203, 84, 24);
+            grid-row: 2/8;
+
+            }
+            .ad{background-color: rgb(76, 124, 178);
+            grid-column: 2/5;
+            }
+            .ae{background-color: rgb(124, 124, 113);
+            grid-area: 3/2/8/5;
+            }
+            .af{background-color: rgb(56, 56, 43);
+            grid-column: 1/5;
+            }
+            p{text-align: left;}
+        </style>
+    </head>
+    <body>
+        <div class="aa">
+            <div class="ab">Header</div>
+            <div class="ac">Sidebar</div>
+            <div class="ad">Nav</div>
+            <div class="ae">Article<p>Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Aspernatur rem libero quasi
+                    fugiat neque animi aperiam eligendi excepturi fuga
+                    corrupti.</p><p>Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Omnis nulla quidem dignissimos iure
+                    accusamus veniam sed repudiandae ea harum
+                    ducimus?</p><p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Harum itaque corrupti aliquam? Dolore
+                    corporis pariatur, ipsa quo maxime doloremque
+                    dignissimos.</p></div>
+            <div class="af">Footer</div>
+        </div>
+    </body>
+</html>
