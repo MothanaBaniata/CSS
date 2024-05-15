@@ -6,12 +6,11 @@
         .aa {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: repeat(8,50px);
-            width: 1000px;
-            height: 1000px;
-            background-color: red;
+            width: 530px;
+            height: 530px;
+            
             padding: 20px;
-            gap: 10px;
+            column-gap5px: 10px;
         }
 
         img {
@@ -22,26 +21,28 @@
         #a{
 
         }
-        #b{
-            grid-area: 1/2/6/3;
+        #b{height: 280px;
+            margin-top: 15px;
         }
-        #c{ grid-row-start: 6;
+        #c{margin-top: px;
             
         }
-        #d{
-            grid-row-start: 6;
+        #d{margin-top: px;
+            height: 200px;
+            
         }
         
+
     </style>
 </head>
 
 <body>
     <div class="aa">
 
-        <img id="a" src="1.jpeg">
-        <img id="b" src="2.jpg">
-        <img id="c" src="3.jpg">
-        <img id="d" src="4.jpg">
+        <div><p></p><img id="a" src="1.jpeg"></div>
+        <div><img id="b" src="2.jpg"></div>
+        <div><img id="c" src="3.jpg"></div>
+        <div><img id="d" src="4.jpg"></div>
 
     </div>
 </body>

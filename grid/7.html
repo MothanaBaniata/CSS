@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .a {
+            border: solid 2px #657177;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-template-rows: repeat(2, 30px);
+            padding-top: 5px;
+            justify-content: center;
+            border: solid 2px #657177;
+            margin: 5px;
+            height: 100px;
+            width: 1000px;
+            row-gap: 10px;
+            column-gap: 150px;
+        }
+
+        .grid div {
+            background-color: #90A4AE;
+            border-radius: 2px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a">Main content
+        <div class="grid">
+            <div>Grid item 1</div>
+            <div>Grid item 2</div>
+            <div>Grid item 3</div>
+            <div>Grid item 4</div>
+            <div>Grid item 5</div>
+            <div>Grid item 6</div>
+        </div>
+    </div>
+</body>
+
+</html>
