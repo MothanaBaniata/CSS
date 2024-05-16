@@ -1,0 +1,51 @@
+*{box-sizing: border-box;}
+.a{background-color: RGB(3, 22, 59);
+color: white;
+text-align: center;
+}
+.b{justify-content: space-around;
+    color: RGB(3, 22, 59);
+    font-size: 30px;
+    font-weight: bolder;
+display: flex;}
+.c{background-color: RGB(219, 114, 77);
+border-radius: 5px;
+box-shadow: 2px 4px 10px rgb(7, 5, 68);
+margin-left: 350px;
+color: white;}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    background-color: RGB(3, 22, 59);
+    font-size: 30px;
+    font-weight: bolder;
+    align-items: center;
+}
+.foot button{height: 30px;
+color: white;
+background-color: RGB(3, 22, 59);
+border-style: none;
+font-size: 20px;
+font-weight: bold;}
+.button-foot1{font-family: fantasy;}
+.button-foot2{font-family: Georgia, 'Times New Roman', Times, serif}
+.button-foot3{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+.button-foot4{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+.button-foot5{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.button-foot6{font-family: 'Times New Roman', Times, serif;
+width: 80px;
+margin-bottom: 40px;}
+.main{display: flex;
+    background-image: linear-gradient( to right ,rgb(221, 221, 221) ,hsl(0, 100%, 100%));
+    justify-content: space-around;
+    align-items: center;
+}
+.d{background-color: RGB(219, 114, 77);
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px rgb(7, 5, 68);
+    color: white;
+height: 30px;
+width: 250px;}
+.main-1{text-align: center;
+color: RGB(3, 22, 59);}
